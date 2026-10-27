@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quán Cà Phê — Quản lý quán</title>
+  <meta name="description" content="Hệ thống quản lý quán cà phê: kho hàng, công thức, đơn hàng, nhân sự, báo cáo.">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app">
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-icon">☕</span>
+        <span id="brandName">Quán Cà Phê</span>
+      </div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <button id="langToggle" class="lang-toggle" title="Switch language">VI / EN</button>
+        <div class="user-chip" id="userChip"></div>
+      </div>
+    </aside>
+    <main id="view" class="main"></main>
+  </div>
+
+  <div id="modalRoot"></div>
+  <div id="toastRoot"></div>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

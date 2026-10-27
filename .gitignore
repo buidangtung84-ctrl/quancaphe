@@ -1,0 +1,7 @@
+# Adminer-like files should not be published
+# Local tooling used during setup (do not publish)
+minigit/
+.tmp/
+*.log
+Thumbs.db
+.DS_Store
